@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 20px;
+}
+
+header {
+    background-color: yellow;
+    color:blue;
+    padding: 3rem;
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #0a9396;
+    text-align: center;
+    border: 0cqi;
+}
+.image {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+input, textarea {
+    padding: 0.6rem;
+    font-size: 2rem;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+
+    background: green;
+    border: 5px green solid;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: yellow;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.photo {
+    gap: 5px;
+    display: flex;
+}
+
+.droit {
+    justify-content: space-between;
+}
+#conteneur {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact {
+    background-color: aqua;
+}
+
+submit {
+    background-color: red;
+}
+
+#about {
+    background-color: beige;
+}
+
+#arow {
+    background-color:floralwhite;
+}
+#r {
+    background-color: violet;
+}
+
+.image {
+    flex-direction: column-reverse;
+    float: right;
+    width: 100;
+    height: 100;
+
+}
+#exp {
+    background-color: bisque;
+}
